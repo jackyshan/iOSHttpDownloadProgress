@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18388E5C1B7F3F6C00286ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18388E5B1B7F3F6C00286ADD /* Foundation.framework */; };
+		18388E5E1B7F3F6C00286ADD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18388E5D1B7F3F6C00286ADD /* CoreGraphics.framework */; };
+		18388E601B7F3F6C00286ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18388E5F1B7F3F6C00286ADD /* UIKit.framework */; };
+		18388E661B7F3F6C00286ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18388E641B7F3F6C00286ADD /* InfoPlist.strings */; };
+		18388E681B7F3F6C00286ADD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388E671B7F3F6C00286ADD /* main.m */; };
+		18388E6C1B7F3F6C00286ADD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388E6B1B7F3F6C00286ADD /* AppDelegate.m */; };
+		18388E741B7F3F6C00286ADD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18388E731B7F3F6C00286ADD /* Images.xcassets */; };
+		18388E7B1B7F3F6C00286ADD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18388E7A1B7F3F6C00286ADD /* XCTest.framework */; };
+		18388E7C1B7F3F6C00286ADD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18388E5B1B7F3F6C00286ADD /* Foundation.framework */; };
+		18388E7D1B7F3F6C00286ADD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18388E5F1B7F3F6C00286ADD /* UIKit.framework */; };
+		18388E851B7F3F6C00286ADD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18388E831B7F3F6C00286ADD /* InfoPlist.strings */; };
+		18388E871B7F3F6C00286ADD /* HttpDownloadProgressTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388E861B7F3F6C00286ADD /* HttpDownloadProgressTests.m */; };
+		18388E921B7F3FDB00286ADD /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388E911B7F3FDB00286ADD /* DownloadViewController.m */; };
+		18388E961B7F41D200286ADD /* CircularProgressButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388E951B7F41D200286ADD /* CircularProgressButton.m */; };
+		18388EAD1B7F456600286ADD /* NSData+MKBase64.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388E9A1B7F456600286ADD /* NSData+MKBase64.m */; };
+		18388EAE1B7F456600286ADD /* NSDate+RFC1123.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388E9C1B7F456600286ADD /* NSDate+RFC1123.m */; };
+		18388EAF1B7F456600286ADD /* NSDictionary+RequestEncoding.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388E9E1B7F456600286ADD /* NSDictionary+RequestEncoding.m */; };
+		18388EB01B7F456600286ADD /* NSString+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388EA01B7F456600286ADD /* NSString+MKNetworkKitAdditions.m */; };
+		18388EB11B7F456600286ADD /* UIAlertView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388EA21B7F456600286ADD /* UIAlertView+MKNetworkKitAdditions.m */; };
+		18388EB21B7F456600286ADD /* UIImageView+MKNetworkKitAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388EA41B7F456600286ADD /* UIImageView+MKNetworkKitAdditions.m */; };
+		18388EB31B7F456600286ADD /* MKNetworkEngine.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388EA61B7F456600286ADD /* MKNetworkEngine.m */; };
+		18388EB41B7F456600286ADD /* MKNetworkOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388EA91B7F456600286ADD /* MKNetworkOperation.m */; };
+		18388EB51B7F456600286ADD /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 18388EAC1B7F456600286ADD /* Reachability.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		18388E7E1B7F3F6C00286ADD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 18388E501B7F3F6C00286ADD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 18388E571B7F3F6C00286ADD;
+			remoteInfo = HttpDownloadProgress;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		18388E581B7F3F6C00286ADD /* HttpDownloadProgress.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HttpDownloadProgress.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18388E5B1B7F3F6C00286ADD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		18388E5D1B7F3F6C00286ADD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		18388E5F1B7F3F6C00286ADD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		18388E631B7F3F6C00286ADD /* HttpDownloadProgress-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HttpDownloadProgress-Info.plist"; sourceTree = "<group>"; };
+		18388E651B7F3F6C00286ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18388E671B7F3F6C00286ADD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		18388E691B7F3F6C00286ADD /* HttpDownloadProgress-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HttpDownloadProgress-Prefix.pch"; sourceTree = "<group>"; };
+		18388E6A1B7F3F6C00286ADD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18388E6B1B7F3F6C00286ADD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		18388E731B7F3F6C00286ADD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		18388E791B7F3F6C00286ADD /* HttpDownloadProgressTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HttpDownloadProgressTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		18388E7A1B7F3F6C00286ADD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		18388E821B7F3F6C00286ADD /* HttpDownloadProgressTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HttpDownloadProgressTests-Info.plist"; sourceTree = "<group>"; };
+		18388E841B7F3F6C00286ADD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		18388E861B7F3F6C00286ADD /* HttpDownloadProgressTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HttpDownloadProgressTests.m; sourceTree = "<group>"; };
+		18388E901B7F3FDB00286ADD /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		18388E911B7F3FDB00286ADD /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		18388E941B7F41D200286ADD /* CircularProgressButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircularProgressButton.h; sourceTree = "<group>"; };
+		18388E951B7F41D200286ADD /* CircularProgressButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircularProgressButton.m; sourceTree = "<group>"; };
+		18388E991B7F456600286ADD /* NSData+MKBase64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+MKBase64.h"; sourceTree = "<group>"; };
+		18388E9A1B7F456600286ADD /* NSData+MKBase64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+MKBase64.m"; sourceTree = "<group>"; };
+		18388E9B1B7F456600286ADD /* NSDate+RFC1123.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+RFC1123.h"; sourceTree = "<group>"; };
+		18388E9C1B7F456600286ADD /* NSDate+RFC1123.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+RFC1123.m"; sourceTree = "<group>"; };
+		18388E9D1B7F456600286ADD /* NSDictionary+RequestEncoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+RequestEncoding.h"; sourceTree = "<group>"; };
+		18388E9E1B7F456600286ADD /* NSDictionary+RequestEncoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+RequestEncoding.m"; sourceTree = "<group>"; };
+		18388E9F1B7F456600286ADD /* NSString+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		18388EA01B7F456600286ADD /* NSString+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		18388EA11B7F456600286ADD /* UIAlertView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIAlertView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		18388EA21B7F456600286ADD /* UIAlertView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIAlertView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		18388EA31B7F456600286ADD /* UIImageView+MKNetworkKitAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+MKNetworkKitAdditions.h"; sourceTree = "<group>"; };
+		18388EA41B7F456600286ADD /* UIImageView+MKNetworkKitAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+MKNetworkKitAdditions.m"; sourceTree = "<group>"; };
+		18388EA51B7F456600286ADD /* MKNetworkEngine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkEngine.h; sourceTree = "<group>"; };
+		18388EA61B7F456600286ADD /* MKNetworkEngine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkEngine.m; sourceTree = "<group>"; };
+		18388EA71B7F456600286ADD /* MKNetworkKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkKit.h; sourceTree = "<group>"; };
+		18388EA81B7F456600286ADD /* MKNetworkOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MKNetworkOperation.h; sourceTree = "<group>"; };
+		18388EA91B7F456600286ADD /* MKNetworkOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MKNetworkOperation.m; sourceTree = "<group>"; };
+		18388EAB1B7F456600286ADD /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		18388EAC1B7F456600286ADD /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18388E551B7F3F6C00286ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18388E5E1B7F3F6C00286ADD /* CoreGraphics.framework in Frameworks */,
+				18388E601B7F3F6C00286ADD /* UIKit.framework in Frameworks */,
+				18388E5C1B7F3F6C00286ADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18388E761B7F3F6C00286ADD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18388E7B1B7F3F6C00286ADD /* XCTest.framework in Frameworks */,
+				18388E7D1B7F3F6C00286ADD /* UIKit.framework in Frameworks */,
+				18388E7C1B7F3F6C00286ADD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18388E4F1B7F3F6C00286ADD = {
+			isa = PBXGroup;
+			children = (
+				18388E611B7F3F6C00286ADD /* HttpDownloadProgress */,
+				18388E801B7F3F6C00286ADD /* HttpDownloadProgressTests */,
+				18388E5A1B7F3F6C00286ADD /* Frameworks */,
+				18388E591B7F3F6C00286ADD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18388E591B7F3F6C00286ADD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18388E581B7F3F6C00286ADD /* HttpDownloadProgress.app */,
+				18388E791B7F3F6C00286ADD /* HttpDownloadProgressTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18388E5A1B7F3F6C00286ADD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18388E5B1B7F3F6C00286ADD /* Foundation.framework */,
+				18388E5D1B7F3F6C00286ADD /* CoreGraphics.framework */,
+				18388E5F1B7F3F6C00286ADD /* UIKit.framework */,
+				18388E7A1B7F3F6C00286ADD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		18388E611B7F3F6C00286ADD /* HttpDownloadProgress */ = {
+			isa = PBXGroup;
+			children = (
+				18388E971B7F456600286ADD /* MKNetworkKit */,
+				18388E931B7F41D200286ADD /* CircularProgressButton */,
+				18388E6A1B7F3F6C00286ADD /* AppDelegate.h */,
+				18388E6B1B7F3F6C00286ADD /* AppDelegate.m */,
+				18388E901B7F3FDB00286ADD /* DownloadViewController.h */,
+				18388E911B7F3FDB00286ADD /* DownloadViewController.m */,
+				18388E731B7F3F6C00286ADD /* Images.xcassets */,
+				18388E621B7F3F6C00286ADD /* Supporting Files */,
+			);
+			path = HttpDownloadProgress;
+			sourceTree = "<group>";
+		};
+		18388E621B7F3F6C00286ADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18388E631B7F3F6C00286ADD /* HttpDownloadProgress-Info.plist */,
+				18388E641B7F3F6C00286ADD /* InfoPlist.strings */,
+				18388E671B7F3F6C00286ADD /* main.m */,
+				18388E691B7F3F6C00286ADD /* HttpDownloadProgress-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18388E801B7F3F6C00286ADD /* HttpDownloadProgressTests */ = {
+			isa = PBXGroup;
+			children = (
+				18388E861B7F3F6C00286ADD /* HttpDownloadProgressTests.m */,
+				18388E811B7F3F6C00286ADD /* Supporting Files */,
+			);
+			path = HttpDownloadProgressTests;
+			sourceTree = "<group>";
+		};
+		18388E811B7F3F6C00286ADD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				18388E821B7F3F6C00286ADD /* HttpDownloadProgressTests-Info.plist */,
+				18388E831B7F3F6C00286ADD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		18388E931B7F41D200286ADD /* CircularProgressButton */ = {
+			isa = PBXGroup;
+			children = (
+				18388E941B7F41D200286ADD /* CircularProgressButton.h */,
+				18388E951B7F41D200286ADD /* CircularProgressButton.m */,
+			);
+			path = CircularProgressButton;
+			sourceTree = "<group>";
+		};
+		18388E971B7F456600286ADD /* MKNetworkKit */ = {
+			isa = PBXGroup;
+			children = (
+				18388E981B7F456600286ADD /* Categories */,
+				18388EA51B7F456600286ADD /* MKNetworkEngine.h */,
+				18388EA61B7F456600286ADD /* MKNetworkEngine.m */,
+				18388EA71B7F456600286ADD /* MKNetworkKit.h */,
+				18388EA81B7F456600286ADD /* MKNetworkOperation.h */,
+				18388EA91B7F456600286ADD /* MKNetworkOperation.m */,
+				18388EAA1B7F456600286ADD /* Reachability */,
+			);
+			path = MKNetworkKit;
+			sourceTree = "<group>";
+		};
+		18388E981B7F456600286ADD /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				18388E991B7F456600286ADD /* NSData+MKBase64.h */,
+				18388E9A1B7F456600286ADD /* NSData+MKBase64.m */,
+				18388E9B1B7F456600286ADD /* NSDate+RFC1123.h */,
+				18388E9C1B7F456600286ADD /* NSDate+RFC1123.m */,
+				18388E9D1B7F456600286ADD /* NSDictionary+RequestEncoding.h */,
+				18388E9E1B7F456600286ADD /* NSDictionary+RequestEncoding.m */,
+				18388E9F1B7F456600286ADD /* NSString+MKNetworkKitAdditions.h */,
+				18388EA01B7F456600286ADD /* NSString+MKNetworkKitAdditions.m */,
+				18388EA11B7F456600286ADD /* UIAlertView+MKNetworkKitAdditions.h */,
+				18388EA21B7F456600286ADD /* UIAlertView+MKNetworkKitAdditions.m */,
+				18388EA31B7F456600286ADD /* UIImageView+MKNetworkKitAdditions.h */,
+				18388EA41B7F456600286ADD /* UIImageView+MKNetworkKitAdditions.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		18388EAA1B7F456600286ADD /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				18388EAB1B7F456600286ADD /* Reachability.h */,
+				18388EAC1B7F456600286ADD /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18388E571B7F3F6C00286ADD /* HttpDownloadProgress */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18388E8A1B7F3F6C00286ADD /* Build configuration list for PBXNativeTarget "HttpDownloadProgress" */;
+			buildPhases = (
+				18388E541B7F3F6C00286ADD /* Sources */,
+				18388E551B7F3F6C00286ADD /* Frameworks */,
+				18388E561B7F3F6C00286ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HttpDownloadProgress;
+			productName = HttpDownloadProgress;
+			productReference = 18388E581B7F3F6C00286ADD /* HttpDownloadProgress.app */;
+			productType = "com.apple.product-type.application";
+		};
+		18388E781B7F3F6C00286ADD /* HttpDownloadProgressTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 18388E8D1B7F3F6C00286ADD /* Build configuration list for PBXNativeTarget "HttpDownloadProgressTests" */;
+			buildPhases = (
+				18388E751B7F3F6C00286ADD /* Sources */,
+				18388E761B7F3F6C00286ADD /* Frameworks */,
+				18388E771B7F3F6C00286ADD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				18388E7F1B7F3F6C00286ADD /* PBXTargetDependency */,
+			);
+			name = HttpDownloadProgressTests;
+			productName = HttpDownloadProgressTests;
+			productReference = 18388E791B7F3F6C00286ADD /* HttpDownloadProgressTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		18388E501B7F3F6C00286ADD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jackyshan;
+				TargetAttributes = {
+					18388E781B7F3F6C00286ADD = {
+						TestTargetID = 18388E571B7F3F6C00286ADD;
+					};
+				};
+			};
+			buildConfigurationList = 18388E531B7F3F6C00286ADD /* Build configuration list for PBXProject "HttpDownloadProgress" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 18388E4F1B7F3F6C00286ADD;
+			productRefGroup = 18388E591B7F3F6C00286ADD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18388E571B7F3F6C00286ADD /* HttpDownloadProgress */,
+				18388E781B7F3F6C00286ADD /* HttpDownloadProgressTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18388E561B7F3F6C00286ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18388E741B7F3F6C00286ADD /* Images.xcassets in Resources */,
+				18388E661B7F3F6C00286ADD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18388E771B7F3F6C00286ADD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18388E851B7F3F6C00286ADD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18388E541B7F3F6C00286ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18388EB51B7F456600286ADD /* Reachability.m in Sources */,
+				18388E6C1B7F3F6C00286ADD /* AppDelegate.m in Sources */,
+				18388EB31B7F456600286ADD /* MKNetworkEngine.m in Sources */,
+				18388EAF1B7F456600286ADD /* NSDictionary+RequestEncoding.m in Sources */,
+				18388E961B7F41D200286ADD /* CircularProgressButton.m in Sources */,
+				18388EAD1B7F456600286ADD /* NSData+MKBase64.m in Sources */,
+				18388E681B7F3F6C00286ADD /* main.m in Sources */,
+				18388EB41B7F456600286ADD /* MKNetworkOperation.m in Sources */,
+				18388EB11B7F456600286ADD /* UIAlertView+MKNetworkKitAdditions.m in Sources */,
+				18388EB21B7F456600286ADD /* UIImageView+MKNetworkKitAdditions.m in Sources */,
+				18388E921B7F3FDB00286ADD /* DownloadViewController.m in Sources */,
+				18388EB01B7F456600286ADD /* NSString+MKNetworkKitAdditions.m in Sources */,
+				18388EAE1B7F456600286ADD /* NSDate+RFC1123.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18388E751B7F3F6C00286ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18388E871B7F3F6C00286ADD /* HttpDownloadProgressTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		18388E7F1B7F3F6C00286ADD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 18388E571B7F3F6C00286ADD /* HttpDownloadProgress */;
+			targetProxy = 18388E7E1B7F3F6C00286ADD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		18388E641B7F3F6C00286ADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18388E651B7F3F6C00286ADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		18388E831B7F3F6C00286ADD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				18388E841B7F3F6C00286ADD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		18388E881B7F3F6C00286ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		18388E891B7F3F6C00286ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		18388E8B1B7F3F6C00286ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpDownloadProgress/HttpDownloadProgress-Prefix.pch";
+				INFOPLIST_FILE = "HttpDownloadProgress/HttpDownloadProgress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		18388E8C1B7F3F6C00286ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpDownloadProgress/HttpDownloadProgress-Prefix.pch";
+				INFOPLIST_FILE = "HttpDownloadProgress/HttpDownloadProgress-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		18388E8E1B7F3F6C00286ADD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HttpDownloadProgress.app/HttpDownloadProgress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpDownloadProgress/HttpDownloadProgress-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "HttpDownloadProgressTests/HttpDownloadProgressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		18388E8F1B7F3F6C00286ADD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/HttpDownloadProgress.app/HttpDownloadProgress";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HttpDownloadProgress/HttpDownloadProgress-Prefix.pch";
+				INFOPLIST_FILE = "HttpDownloadProgressTests/HttpDownloadProgressTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		18388E531B7F3F6C00286ADD /* Build configuration list for PBXProject "HttpDownloadProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18388E881B7F3F6C00286ADD /* Debug */,
+				18388E891B7F3F6C00286ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		18388E8A1B7F3F6C00286ADD /* Build configuration list for PBXNativeTarget "HttpDownloadProgress" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18388E8B1B7F3F6C00286ADD /* Debug */,
+				18388E8C1B7F3F6C00286ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		18388E8D1B7F3F6C00286ADD /* Build configuration list for PBXNativeTarget "HttpDownloadProgressTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				18388E8E1B7F3F6C00286ADD /* Debug */,
+				18388E8F1B7F3F6C00286ADD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 18388E501B7F3F6C00286ADD /* Project object */;
+}
