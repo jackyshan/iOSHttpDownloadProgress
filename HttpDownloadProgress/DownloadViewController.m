@@ -69,7 +69,7 @@ static MKNetworkEngine *engine = nil;
 }
 
 - (NSString *)_savePath {
-    NSString *savePath = [NSTemporaryDirectory() stringByAppendingString:@"p1469094_128k.mp4"];
+    NSString *savePath = [NSTemporaryDirectory() stringByAppendingString:@"QQ8.0.exe"];
     NSFileManager *fileManager = [NSFileManager defaultManager];
     if (![fileManager fileExistsAtPath:savePath]) {
         BOOL res = [fileManager createDirectoryAtPath:savePath withIntermediateDirectories:YES attributes:nil error:nil];
