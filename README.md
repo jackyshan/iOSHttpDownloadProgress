@@ -1,5 +1,5 @@
 
-![](image/ios_http_download.png)
+![](image/ios_http_download.gif)
 
 ##网络
 

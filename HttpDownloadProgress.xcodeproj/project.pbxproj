@@ -457,7 +457,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HttpDownloadProgress/HttpDownloadProgress-Prefix.pch";
 				INFOPLIST_FILE = "HttpDownloadProgress/HttpDownloadProgress-Info.plist";
@@ -470,7 +469,6 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HttpDownloadProgress/HttpDownloadProgress-Prefix.pch";
 				INFOPLIST_FILE = "HttpDownloadProgress/HttpDownloadProgress-Info.plist";
@@ -538,6 +536,7 @@
 				18388E8C1B7F3F6C00286ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		18388E8D1B7F3F6C00286ADD /* Build configuration list for PBXNativeTarget "HttpDownloadProgressTests" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +545,7 @@
 				18388E8F1B7F3F6C00286ADD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
